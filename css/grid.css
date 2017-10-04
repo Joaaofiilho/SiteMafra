@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.wireframe {
+  display: grid;
+  grid-template-columns: 300px 500px;
+  grid-template-rows: 50px 100px 200px;
+}
+
+.page-header {
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: #123111;
+}
+
+.page-menu {
+  grid-row: 2;
+  grid-column: 1;
+  background-color: #2141FD;
+}
+
+.page-content {
+  grid-row: 2;
+  grid-column: 2;
+  background-color: #613A11;
+}
+
+.page-footer {
+  grid-row: 3;
+  grid-column: 2;
+  background-color: #1231DF;
+}
